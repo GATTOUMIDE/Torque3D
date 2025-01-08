@@ -84,6 +84,8 @@ public:
    RenderMeshExample();
    virtual ~RenderMeshExample();
 
+   DECLARE_CATEGORY("ExampleObjects");
+
    // Declare this object as a ConsoleObject so that we can
    // instantiate it into the world and network it
    DECLARE_CONOBJECT(RenderMeshExample);
